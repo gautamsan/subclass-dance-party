@@ -24,4 +24,27 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+
+}
+
+.bouncyDancer{
+  border:20px solid green;
+  position:absolute;
+  -webkit-transition: all 2s ease-in-out;
+}
+
+.bouncyDancer:hover{
+  -webkit-transform: translate(30em,0);
+
+}
+
+.jigglyBigDancer{
+  border:31px solid white;
+  border-radius:31px;
+  position:absolute;
+}
+.jigglySmallDancer{
+  border:28px solid white;
+  border-radius:28px;
+  position:absolute;
 }
